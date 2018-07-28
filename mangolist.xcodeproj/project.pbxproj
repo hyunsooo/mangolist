@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		173BB27B210C8BFE00CCEF67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BB27A210C8BFE00CCEF67 /* AppDelegate.swift */; };
-		173BB27D210C8BFE00CCEF67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BB27C210C8BFE00CCEF67 /* ViewController.swift */; };
+		173BB27D210C8BFE00CCEF67 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173BB27C210C8BFE00CCEF67 /* HomeController.swift */; };
 		173BB280210C8BFE00CCEF67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173BB27E210C8BFE00CCEF67 /* Main.storyboard */; };
-		173BB283210C8BFE00CCEF67 /* mangolist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 173BB281210C8BFE00CCEF67 /* mangolist.xcdatamodeld */; };
 		173BB285210C8C0000CCEF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173BB284210C8C0000CCEF67 /* Assets.xcassets */; };
 		173BB288210C8C0000CCEF67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173BB286210C8C0000CCEF67 /* LaunchScreen.storyboard */; };
+		87151AD8B5F0169666020B48 /* Pods_mangolist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C561F640A61A178F7E2F469 /* Pods_mangolist.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4AC6EEF3B6C0BB122D395A /* Pods-mangolist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mangolist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mangolist/Pods-mangolist.debug.xcconfig"; sourceTree = "<group>"; };
 		173BB277210C8BFE00CCEF67 /* mangolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mangolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		173BB27A210C8BFE00CCEF67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		173BB27C210C8BFE00CCEF67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		173BB27C210C8BFE00CCEF67 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		173BB27F210C8BFE00CCEF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		173BB282210C8BFE00CCEF67 /* mangolist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mangolist.xcdatamodel; sourceTree = "<group>"; };
 		173BB284210C8C0000CCEF67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		173BB287210C8C0000CCEF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		173BB289210C8C0000CCEF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C088D86666A6CA2FC23FF7 /* Pods-mangolist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mangolist.release.xcconfig"; path = "Pods/Target Support Files/Pods-mangolist/Pods-mangolist.release.xcconfig"; sourceTree = "<group>"; };
+		5C561F640A61A178F7E2F469 /* Pods_mangolist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mangolist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87151AD8B5F0169666020B48 /* Pods_mangolist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,8 @@
 			children = (
 				173BB279210C8BFE00CCEF67 /* mangolist */,
 				173BB278210C8BFE00CCEF67 /* Products */,
+				E9436E35961BEF95A89E852F /* Pods */,
+				6D8BACDE19D039166E55B4E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +62,30 @@
 			isa = PBXGroup;
 			children = (
 				173BB27A210C8BFE00CCEF67 /* AppDelegate.swift */,
-				173BB27C210C8BFE00CCEF67 /* ViewController.swift */,
+				173BB27C210C8BFE00CCEF67 /* HomeController.swift */,
 				173BB27E210C8BFE00CCEF67 /* Main.storyboard */,
 				173BB284210C8C0000CCEF67 /* Assets.xcassets */,
 				173BB286210C8C0000CCEF67 /* LaunchScreen.storyboard */,
 				173BB289210C8C0000CCEF67 /* Info.plist */,
-				173BB281210C8BFE00CCEF67 /* mangolist.xcdatamodeld */,
 			);
 			path = mangolist;
+			sourceTree = "<group>";
+		};
+		6D8BACDE19D039166E55B4E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C561F640A61A178F7E2F469 /* Pods_mangolist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9436E35961BEF95A89E852F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B4AC6EEF3B6C0BB122D395A /* Pods-mangolist.debug.xcconfig */,
+				39C088D86666A6CA2FC23FF7 /* Pods-mangolist.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 173BB28C210C8C0000CCEF67 /* Build configuration list for PBXNativeTarget "mangolist" */;
 			buildPhases = (
+				2BC917270C9DC083780AF1CE /* [CP] Check Pods Manifest.lock */,
 				173BB273210C8BFE00CCEF67 /* Sources */,
 				173BB274210C8BFE00CCEF67 /* Frameworks */,
 				173BB275210C8BFE00CCEF67 /* Resources */,
+				13DF7ABB3350B710CB9F21A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +156,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13DF7ABB3350B710CB9F21A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mangolist/Pods-mangolist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mangolist/Pods-mangolist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BC917270C9DC083780AF1CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mangolist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		173BB273210C8BFE00CCEF67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				173BB27D210C8BFE00CCEF67 /* ViewController.swift in Sources */,
-				173BB283210C8BFE00CCEF67 /* mangolist.xcdatamodeld in Sources */,
+				173BB27D210C8BFE00CCEF67 /* HomeController.swift in Sources */,
 				173BB27B210C8BFE00CCEF67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +349,7 @@
 		};
 		173BB28D210C8C0000CCEF67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4AC6EEF3B6C0BB122D395A /* Pods-mangolist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -302,6 +370,7 @@
 		};
 		173BB28E210C8C0000CCEF67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C088D86666A6CA2FC23FF7 /* Pods-mangolist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -342,19 +411,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		173BB281210C8BFE00CCEF67 /* mangolist.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				173BB282210C8BFE00CCEF67 /* mangolist.xcdatamodel */,
-			);
-			currentVersion = 173BB282210C8BFE00CCEF67 /* mangolist.xcdatamodel */;
-			path = mangolist.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 173BB26F210C8BFE00CCEF67 /* Project object */;
 }
